@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="css/index.master.css"/>-->
+    <!--<script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>-->
+    <script type="text/javascript" src="d3.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+    d3.json("henan.json",function (error,data) {
+        if (error){
+            return console.log(error);
+        }
+        console.log(data);
+    })
+</script>
+</html>
